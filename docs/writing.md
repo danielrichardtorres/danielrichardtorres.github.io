@@ -6,7 +6,6 @@ description: >
   Don't worry, these are merely CSS classes added with kramdown's `{:...}` syntax,
   so that your content remains compatible with other Jekyll themes.
 hide_description: true
-sitemap: false
 ---
 
 Hydejack offers a few additional features to markup your content.
@@ -191,7 +190,9 @@ In this case, Hydejack will break the layout and grant the table the entire avai
 | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            |
 | Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                |
 | 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                |
+|=================|============|=================|================|=================|============|=================|================|=================|============|=================|================|=================|============|=================|================|
 | Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                |
+{:.fine}
 
 ### Scroll table
 If the extra space still isn't enough, the table will receive a scrollbar.
@@ -205,8 +206,9 @@ By adding the `scroll-table` class on a table, the behavior is changed to never 
 | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            | Third line      |quux        | baz             | bar            |
 | Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                | Second body     |            |                 |                |
 | 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                | 2 line          |            |                 |                |
+|=================|============|=================|================|=================|============|=================|================|=================|============|=================|================|=================|============|=================|================|
 | Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                | Footer row      |            |                 |                |
-{:.scroll-table}
+{:.fine.scroll-table}
 
 You can add the `scroll-table` class to a markdown table by putting `{:.scroll-table}` in line directly below the table.
 To add the class to a HTML table, add the it to the `class` attribute of the `table` tag, e.g. `<table class="scroll-table">`.
@@ -235,7 +237,7 @@ Example:
 | 8th line        |quux        | baz             | bar            | 8th line        |quux        | baz             | bar            | 8th line        |quux        | baz             | bar            | 8th line        |quux        | baz             | bar            |
 | 9th line        |quux        | baz             | bar            | 9th line        |quux        | baz             | bar            | 9th line        |quux        | baz             | bar            | 9th line        |quux        | baz             | bar            |
 | 10th line       |quux        | baz             | bar            | 10th line       |quux        | baz             | bar            | 10th line       |quux        | baz             | bar            | 10th line       |quux        | baz             | bar            |
-{:.flip-table}
+{:.fine.flip-table}
 
 You can add the `flip-table` class to a markdown table by putting `{:.flip-table}` in line directly below the table.
 To add the class to a HTML table, add the it to the `class` attribute of the `table` tag, e.g. `<table class="flip-table">`.
@@ -380,6 +382,8 @@ An optional caption for a math block
 KaTeX does not support the `align` and `align*` environments.
 Instead, `aligned` should be used, e.g. `\begin{aligned} ... \end{aligned}`.
 {:.note}
+
+<clap-button></clap-button>
 
 Continue with [Scripts](scripts.md){:.heading.flip-title}
 {:.read-more}

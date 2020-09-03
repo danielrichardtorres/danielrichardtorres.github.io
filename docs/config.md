@@ -4,7 +4,6 @@ title: Config
 description: >
   This chapter covers the many configuration options of Hydejack, allowing you to tailor it to your needs.
 hide_description: true
-sitemap: false
 ---
 
 Once Jekyll is running, you can start with basic configuration by adding various entries to `_config.yml`. 
@@ -335,7 +334,7 @@ author:
   social:
     email:    mail@qwtel.com
     rss:      {{ site.url }}{{ site.baseurl }}/feed.xml # make sure you provide an absolute URL
-    download: https://github.com/hydecorp/hydejack/archive/v9.0.3.zip
+    download: https://github.com/hydecorp/hydejack/archive/v9.0.4.zip
 ~~~
 
 
@@ -552,6 +551,8 @@ Setting `dynamic`, will enable dark mode based on the client's local time (unlik
 Setting `icon` will show a switch to alternate between the light and dark mode at the top of the page.
 
 Finally, setting `always` will cause dark mode to become the default theme at all times (combine with `dynamic: false`).
+
+<clap-button></clap-button>
 
 Continue with [Basics](basics.md){:.heading.flip-title}
 {:.read-more}

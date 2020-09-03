@@ -4,7 +4,6 @@ title: Advanced
 description: >
   This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.
 hide_description: true
-sitemap: false
 ---
 
 This chapter covers advanced topics, such as offline support and custom JS builds. Codings skills are recommended.
@@ -160,7 +159,7 @@ The rules are as follows:
 * Every line that isn't contained in a block and ends with `// link` will be linked
 * Every line for which none of the above applies will be included in both.
 
-The actual splitting happen with the `_scripts/build-css.sh` script (requires node.js 8+).
+The actual splitting happen with the `.scripts/build-css.sh` script (requires node.js 8+).
 You can run the script once by using
 
 ~~~bash
@@ -185,42 +184,6 @@ hydejack:
 to your config file.
 
 
-## Building the JavaScript
-In order to build the JavaScript you need to have [node.js](https://nodejs.org/en/) installed. Specifically, the `npm` command needs to be available, which is part of node.js.
-
-Building the JavaScript is optional! Hydejack comes with a pre-built, minified `hydejack.js` file
-that you can find in part of the theme's `assets`.
-{:.note}
-
-Before you start, make sure you've copied the following files:
-* `_js/`
-* `package.json`
-* `package-lock.json`
-* `.babelrc`
-* `.eslintignore`
-* `.eslintrc`
-
-When building for the first time (and after each update of Hydejack) you have to run
-
-~~~bash
-$ npm install
-~~~
-
-to fetch all dependencies (and put them in a local folder `node_modules`), lint the code and write the bundled and minified script into `assets/js/hydejack.js`.
-
-You can re-build it with
-
-~~~bash
-$ npm run build:js
-~~~
-
-If you want to actively develop the scripts, it is better to run
-
-~~~bash
-$ npm run watch:js
-~~~
-
-which will build a non-minified version of `assets/js/hydejack.js` after each filechange.
-
-
 *[FLIP]: First Last Invert Play
+
+<clap-button></clap-button>
