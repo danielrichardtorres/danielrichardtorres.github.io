@@ -1,0 +1,25 @@
+baseURL = ""
+languageCode = "en-us"
+theme = "simpleintro"
+title = "Daniel Torres"
+publishDir = "public"
+
+[params]
+    mainbg = "https://images.unsplash.com/photo-1495592822108-9e6261896da8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9"
+    name = "Daniel Torres Portfolio"
+    mainTitle = "Portfolio"
+    mainText = "Technical Projects Showcase"
+
+[menus]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "#about"
+    [[menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "#projects"
+    [[menu.main]]
+        identifier = "skills"
+        name = "Skills"
+        url = "#skills"
