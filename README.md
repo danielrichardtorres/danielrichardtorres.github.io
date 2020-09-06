@@ -1,9 +1,10 @@
-# Project Portfolio
-## Project 1: Test
-* Created xyz
-* did abc
-* engineered 123
-* optimized abc
+# Daniel Torres Portfolio
+
+## Project 1: Predicting House Sale Prices
+* Constructed machine learning model from scratch
+* Built a machine learning pipeline
+* Applied feature selection with Least Squares Metric
+* Used Gradient Descent optimization
 
 ## Project 2: Test
 * Created xyz
