@@ -1,5 +1,3 @@
-# Daniel Torres Portfolio
-
 ## Project 1: Predicting House Sale Prices
 * Constructed machine learning model from scratch
 * Built a machine learning pipeline
