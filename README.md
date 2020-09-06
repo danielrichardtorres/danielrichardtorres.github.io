@@ -6,17 +6,17 @@
 * Applied feature selection with Least Squares Metric
 * Used Gradient Descent optimization
 
-## Project 2: Test
-* Created xyz
-* did abc
-* engineered 123
-* optimized abc
+## Project 2: Advanced Data Cleaning on NYC High School DAta
+* Using pandas with python
+* Identified missing data using both code and vizualizations
+* Read and worked with JSON files
+* Used regular expressions to clean data 
+* Used List Compreshensions to create and transform lists
 
-## Project 3: Test
-* Created xyz
-* did abc
-* engineered 123
-* optimized abc
+## Project 3: Building a Handwritten Digits Classifier
+* Compared different image classification models
+* Trained neural networks using scikit-learn package
+* Optimized networks using ensemble classifications models
 
 ## Links
 * [Daniel Torres Portfolio](https://danieltorres.tech)
