@@ -1,17 +1,19 @@
-## Project 1: Predicting House Sale Prices
+
+# Projects
+## Predicting House Sale Prices
 * Constructed machine learning model from scratch
 * Built a machine learning pipeline
 * Applied feature selection with Least Squares Metric
 * Used Gradient Descent optimization
 
-## Project 2: Advanced Data Cleaning on NYC High School DAta
+## Advanced Data Cleaning on NYC High School Data
 * Using pandas with python
 * Identified missing data using both code and vizualizations
 * Read and worked with JSON files
 * Used regular expressions to clean data 
 * Used List Compreshensions to create and transform lists
 
-## Project 3: Building a Handwritten Digits Classifier
+## Building a Handwritten Digits Classifier
 * Compared different image classification models
 * Trained neural networks using scikit-learn package
 * Optimized networks using ensemble classifications models
