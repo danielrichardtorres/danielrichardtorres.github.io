@@ -1,5 +1,5 @@
-# Daniel Torres Portfolio
-[danieltorres.tech]
+# [Daniel Torres Portfolio](danieltorres.tech)
+
 
 # Project 1: Test
 * Created xyz
